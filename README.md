@@ -26,7 +26,7 @@ First, clone the project from GitHub and navigate into the project directory.
 
 Bash
 
-git clone https://github.com/afonsolenzi/brewery/
+git clone https://github.com/afonsolenzi/cervezas-breweryapi.git
 cd brewery
 ### 2. Start the Airflow Environment
 Use the Astro CLI to build the Docker image and start all necessary Airflow services.
