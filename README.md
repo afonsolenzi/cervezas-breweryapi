@@ -2,7 +2,7 @@
 
 ![Architecture](./Brewery-Architecture.png)
 
-This project implements a modern, scalable ETL pipeline to ingest data from the public OpenBreweryDB API. The pipeline is orchestrated by Apache Airflow, processed with Apache Spark, and stored in a MinIO-based data lake using the Delta Lake format. The entire environment is containerized with Docker Compose for portability and ease of deployment.
+This project implements a modern, scalable ETL pipeline to ingest data from the public OpenBreweryDB API. The pipeline is orchestrated by Apache Airflow, processed with python and stored in Sqlite. The entire environment is containerized with Docker  for portability and ease of deployment.
 
 The pipeline follows the Medallion Architecture to progressively refine and structure the data across Bronze, Silver, and Gold layers, making it suitable for analytics and business intelligence.
 
@@ -10,13 +10,13 @@ Technology Stack
 
 Orchestration: Apache Airflow
 
-Data Processing: Apache Spark
+Data Processing: Python
 
 Data Lake Storage: Sqllite
 
-Dashboard? Streamlit
+Dashboard: Streamlit
 
-Containerization: Docker Compose
+Containerization: Docker 
 
 ## How to Run This Project 🚀
 Follow these steps to get the pipeline and dashboard running on your local machine.
